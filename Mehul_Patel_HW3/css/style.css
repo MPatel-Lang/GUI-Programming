@@ -1,0 +1,93 @@
+/*
+  AUTHOR:  Mehul Patel
+  EMAIL:   Mehul_patel@student.uml.edu
+  FILE:    index.html
+ 
+ FILE DESCRIPTION:
+     Assignment #3: Mulitplication Table
+    
+     This file is the HTML structure of a simple web page. The web page
+     uses javascript to create and display a multiplication table.
+     Multiplier and multiplicand values are provided by the user via an
+     HTML form, and the page is styled using CSS.
+ */
+
+html {
+    background-color: #333333;
+    height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    color: #333333;
+    margin: 0 auto;
+    max-width: 960px;
+    min-height: 100%;
+    min-width: 700px;
+    padding: 20px;
+    width: 65%;
+}
+
+html, body, input {
+    font: normal 16px/100% Arial, sans-serif;
+}
+
+/** Styling for form contents. **/
+#form fieldset {
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 10px 20px 15px 20px;
+}
+
+#form legend {
+    font-weight: bold;
+}
+
+#form input[type='number'] {
+    margin-right: 20px;
+}
+
+#form input[type='submit'] {
+    background-color: #333333;
+    border: 0;
+    color: #f3b225; /* Orange */
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+#form input[type='submit']:hover {
+    color: #ffffff;
+}
+
+#form input[type='submit']:active {
+    background-color: #000000;
+}
+
+#table {
+    border-collapse: collapse;
+    display: block;
+    max-height: 500px;
+    outline: 1px solid #000000;
+    overflow: auto;
+    text-align: center;
+    width: 100%;
+}
+
+#table tr:nth-child(even) td:nth-child(odd),
+#table tr:nth-child(odd) td:nth-child(even) {
+    /* Color every others cell */
+    background-color: #f3b225; /* Orange */
+}
+
+#table th {
+    background-color: #333333;
+    color: #f3b225; /* Orange */
+    margin: 0;
+}
+
+#table th, #table td {
+    border: 2px solid #ffffff;
+    padding: 0.8em;
+}
