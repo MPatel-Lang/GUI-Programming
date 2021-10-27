@@ -1,3 +1,18 @@
+/*
+Name: Mehul Patel
+
+Email: mehul_patel@student.uml.edu
+
+Date: 10/20/2021
+
+Description: For this assignment you will create a table completely dynamically based on parameters entered
+in an HTML form. First, you must create a form that accepts the starting and ending numbers for
+both the horizontal (multiplier) and vertical (multiplicand) axes of a multiplication
+table. Second, you will use the numbers entered into the form to create a multiplication table
+completely dynamically.
+*/
+
+
 table {
   width: 70%;
   height: 500px;
