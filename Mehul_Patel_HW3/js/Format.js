@@ -41,7 +41,7 @@ function validate_input(row1, row2, col1, col2) {
 }
 
 function create_table() {
-  /* Create a <table> given user input and populate cells with correct multiplication entry */
+  /* Create a table given by the user's input and adds each row and column with the correct multiplication entry */
   var table = document.getElementById('my_table');
   var row1 = document.getElementById('row1');
   var row2 = document.getElementById('row2');
@@ -58,7 +58,7 @@ function create_table() {
     return false;
   }
 
-  // check if there's already a table displayed on the page; reset the HTML
+  // check if there's already a table displayed on the page
   if (table.rows.length != 1) {
     $('#my_table tbody').empty();
     var first_row = table.insertRow(0);
@@ -66,7 +66,7 @@ function create_table() {
 
   // console.lo9g()
 
-  // populate the headings for the first row
+  // adds the headings for the first row
   for (var i = 0; i < 1; i++) {
     for (var j = 0; j < (col2.value - col1.value) + 2; j++) {
       var first_col = first_row.insertCell();
