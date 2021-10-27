@@ -82,7 +82,7 @@ function create_table() {
 
   col_val = col1.value;
 
-  // iterate over the values entered in the form data: create row first then col data.
+  // iterate over the values entered in the form data by create row first then col data.
   for (var i = 1; i < (row2.value - row1.value) + 2; i++) {
     var curr_row = table.insertRow(i);
 
