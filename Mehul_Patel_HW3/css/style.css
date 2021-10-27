@@ -1,0 +1,73 @@
+table {
+  width: 70%;
+  height: 500px;
+  margin: 20px;
+  padding: 30px;
+  border-collapse: collapse;
+}
+
+h1 {
+  border-bottom: 2px solid white;
+  display: inline;
+}
+
+body {
+  background: url("../externals/download.png");
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.rows, .cols {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 20px;
+  width: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  margin-bottom: 60px;
+}
+
+table, th, td {
+  text-align: center;
+}
+
+table tr:first-child td {
+  background: black;
+  color: white;
+}
+
+td:nth-child(1) {
+  background: black;
+  color: white;
+}
+
+td {
+  border: 1px solid white;
+}
+
+th {
+  background-color: grey;
+  color: white;
+  border: 1px solid white;
+}
+
+#submit {
+  background-color: #008CBA;
+  margin-top: 15px;
+  border-radius: 5px;
+  color: white;
+  width: 200px;
+  height: 25px;
+}
