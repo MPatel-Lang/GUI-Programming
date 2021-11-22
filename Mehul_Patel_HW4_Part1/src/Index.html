@@ -1,0 +1,50 @@
+<!--
+Name: Mehul Patel
+Email: Mehul_Patel@student.uml.edu
+Assignment #4: Validate user input using jQuery Part 1
+File: Index.html
+Date: 11/22/21
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../js/form-validation.js"></script>
+    <title>HW4 Part 1</title>
+    </head>
+    <body>
+        <div class="container">
+          <!--  Below is where the user enters the x, y parameters -->
+            <h1>GUI Assignment #4 Part 1: Using the jQuery Validation Plugin with Your Dynamic Table.</h1>
+
+            <form id="myform">
+            <div class="rows">
+                Rows: <br>
+                <input id="row1" type="text" name="row1" placeholder="Enter row lower bound: "><br>
+                <input id="row2" type="text" name="row2" placeholder="Enter row upper bound: "><br>
+            </div>
+
+            <div class="cols">
+                Columns: <br>
+                <input id="col1" type="text" name="col1" placeholder="Enter column lower bound: "><br>
+                <input id="col2" type="text" name="col2" placeholder="Enter column upper bound: "><br>
+                <input id="submit-button" type="submit" onclick="return validate_form()" value="Generate table: ">
+            </div>
+            </form>
+
+            <table id="my_table">
+            </table>
+
+            <script type="text/javascript" src="../js/main.js"></script>
+        </div> <!-- end container div-->
+
+    </body>
+</html>
