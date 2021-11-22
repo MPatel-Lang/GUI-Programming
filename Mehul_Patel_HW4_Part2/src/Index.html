@@ -1,0 +1,68 @@
+<!--
+Name: Mehul Patel
+Email: Mehul_Patel@student.uml.edu
+Assignment #4: Validate user input using jQuery Part 1
+File: form-validation.js"
+Date: 11/22/21
+ -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../externals/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../js/form-validation.js"></script>
+
+    <script src="https://code.jquery.com/ui/jquery-ui-git.js"></script>
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/create_sliders.js"></script>
+    <script type="text/javascript" src="../js/create_table.js"></script>
+
+    <title>HW4 Part 2</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2 id="header">Assignment #4 Part 2: Using the jQuery UI Slider and Tab Widgets.</h2>
+
+            <form id="myform" autocomplete="off">
+                <div class="rows">
+                    <input id="row1" type="text" name="row1" value="5" placeholder="Enter lower bound row value: ">
+                    <div id="first-row"></div>
+
+                    <input id="row2" type="text" name="row2" value="5" placeholder="Enter upper bound row value: ">
+                    <div id="second-row"></div>
+                </div>
+
+                <div class="cols">
+                    <input id="col1" type="text" name="col1" value="5" placeholder="Lower bound col value: ">
+                    <div id="first-col"></div>
+
+                    <input id="col2" type="text" name="col2" value="5" placeholder="Upper bound col value: ">
+                    <div id="second-col"></div>
+                </div>
+
+                <input id="submit-button" type="submit" value="Save table in a new tab: ">
+            </form>
+
+            <div id="tabs">
+                <ul>
+                    <!-- <li><a href='#tab'>First Tab</a></li> -->
+                </ul>
+            </div>
+
+            <div id="my_table">
+                <table id="table_id"></table>
+            </div>
+            
+        </div> <!-- end container div-->
+
+    </body>
+</html>

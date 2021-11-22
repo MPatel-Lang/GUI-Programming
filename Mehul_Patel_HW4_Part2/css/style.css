@@ -1,0 +1,146 @@
+/*
+Name: Mehul Patel
+Email: Mehul_Patel@student.uml.edu
+Assignment #4: Validate user input using jQuery Part 1
+File: style.js"
+Date: 11/22/21
+*/
+html {
+    min-height: 800px;
+    min-width: 600px;
+    position: relative;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background: url("../externals/download.png");
+    background-size: cover;
+    background-position: right;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#tabs, #myform {
+    float: left;
+}
+
+#tabs {
+    background: transparent;
+    width: 50%;
+    float: right;
+    height: 800px;
+    margin-right: 50px;
+    border: none;
+}
+
+#tabs div {
+    margin-left: -20px;
+}
+
+
+.ui-tabs .ui-tabs-nav {
+    background: transparent;
+    border: none;
+}
+
+#myform {
+    width: 30%;
+}
+
+.header {
+    padding: 10px 16px;
+    color: #f1f1f1;
+}
+
+h2 {
+    margin-left: 15px;
+    color: black;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    margin: 15px;
+    height: 30px;
+    width: 30%;
+}
+
+.ui-slider {
+    margin-left: 15px;
+    width: 30%;
+}
+
+.ui-state-default {
+    text-align: center;
+}
+
+.ui-widget {
+    font-family: 'Lato', sans-serif;
+}
+
+.ui-widget-content {
+    background: blue;
+}
+
+table {
+    /* width: 70%; */
+    height: 100%;
+    border-collapse: collapse;
+}
+
+#my_table {
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+table, th, td {
+    text-align: center;
+}
+
+table tr:first-child td {
+    background: black;
+    color: white;
+    opacity: 0.8;
+}
+
+td:nth-child(1) {
+    background: black;
+    color: white;
+    opacity: 0.8;
+}
+
+td {
+    border: 1px solid white;
+    /* font-weight: 800; */
+    font-size: 10px;
+}
+
+th {
+    background-color: grey;
+    color: white;
+    border: 1px solid white;
+}
+
+#submit-button {
+    background-color: #008CBA;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+    height: 25px;
+}
+
+span.arrow {
+    height:17px;
+    color: red;
+}
+
+label.error {
+    height:17px;
+    margin-left:9px;
+    padding:1px 5px 0px 5px;
+    font-size: medium;
+}
